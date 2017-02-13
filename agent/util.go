@@ -5,7 +5,8 @@ import (
 	"fmt"
 	"os"
 	"io/ioutil"
-	"launchpad.net/goyaml"
+	//"launchpad.net/goyaml"
+	goyaml "gopkg.in/yaml.v2"
 )
 
 var logger *log.Logger

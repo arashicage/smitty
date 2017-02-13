@@ -29,6 +29,8 @@ func ValidateSettings() {
 	}
 }
 
+// init 函数
+// 启动的时候要求设置参数 c 和 verbose
 func init() {
 	flag.StringVar(&Settings.AgentConfigFile, "c", "conf/agent.yml", "set configuration file")
 	flag.BoolVar(&Settings.Verbose, "verbose", false, "Log generic info")
